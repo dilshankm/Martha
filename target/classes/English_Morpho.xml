@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictinory language="english">
+	<noun>
+		<I>
+			<type>subjectPro</type>
+		</I>
+		<home>
+			<type>common</type>
+		</home>
+	</noun>
+	<verb>
+		<go>
+			<present>+es</present>
+			<precon>+ing</precon>
+			<past>went</past>
+			<pastpar>+ne</pastpar>
+		</go>
+	</verb>
+</dictinory>

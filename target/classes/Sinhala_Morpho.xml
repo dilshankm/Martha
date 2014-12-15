@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictinory language="sinhala">
+	<verb>
+		<go lemma="ගි">
+			<present>යනවා</present>
+			<precon>යමින් සිටිනවා</precon>
+			<past>යා</past>
+		</go>
+	</verb>
+	<noun>
+		<I>
+			<subjectPro>මම</subjectPro>
+		</I>
+		<home>
+			<common>ගෙදර</common>
+		</home>
+	</noun>
+</dictinory>
