@@ -4,7 +4,7 @@
 		<go lemma="ගි">
 			<present>යනවා</present>
 			<precon>යමින් සිටිනවා</precon>
-			<past>යා</past>
+			<VBD>+යා</VBD>
 		</go>
 	</verb>
 	<noun>

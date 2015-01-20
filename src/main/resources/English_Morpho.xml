@@ -7,12 +7,16 @@
 		<home>
 			<type>common</type>
 		</home>
+		<dog>
+			<type>common</type>
+			<plural>dogs</plural>
+		</dog>
 	</noun>
 	<verb>
 		<go>
 			<present>+es</present>
 			<precon>+ing</precon>
-			<past>went</past>
+			<VBD>went</VBD>
 			<pastpar>+ne</pastpar>
 		</go>
 	</verb>

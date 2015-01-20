@@ -1,25 +1,9 @@
 package com.nyleptha.martha;
 
-import java.io.File;
+import java.util.HashMap;
 
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilder;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Node;
-import org.w3c.dom.Element;
-
-import java.io.File;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Node;
-
-import com.nyleptha.martha.grammer.XMLParser;
-import com.nyleptha.martha.parsing.POS;
-import com.nyleptha.martha.xml.DOMMapping;
+import com.nyleptha.marhta.dictinorary.WordMapper;
+import com.nyleptha.martha.parsing.Parser;
 
 public class Executer {
 
@@ -33,9 +17,15 @@ public class Executer {
 //			object=sourcePOS[2];
 //			String[] targetPOS=POS.check(sourcePOS,"sinhala");
 //			DOMMapping.setMappingEnglish(targetPOS);
-			XMLParser parser=new XMLParser();
-			parser.createXML("rules");
-			parser.addChildElement("rules", "rule");
+//			XMLParser parser=new XMLParser();
+//			
+//			parser.createXML("rules");
+//			parser.addChildElement("rules", "rule");
+			Parser parser=new Parser();
+			WordMapper mapper=new WordMapper();
+			System.out.println("Hello");
+			HashMap<String, String> wordMap=parser.parseThreeGenerator("I went home");
+			mapper.mapWord(wordMap);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
