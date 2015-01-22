@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><rules><rule><PassiveVoice/></rule></rules>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rules>
+	<rule>
+		<Active>
+			<subject>
+				<new>මම</new>
+			</subject>
+			<verb>
+				<irrelavant>+මි</irrelavant>
+			</verb>
+			<object>
+				<irrelavant />
+			</object>
+		</Active>
+	</rule>
+</rules>
